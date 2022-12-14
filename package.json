@@ -1,0 +1,32 @@
+{
+  "name": "react-native-slack",
+  "version": "0.0.1",
+  "description": "TypeScript React Native Slack Integration via Webhook",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "test": "jest",
+    "build": "rm -rf dist && tsc",
+    "precommit": "rm -rf dist && tsc && jest --verbose"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aegrey/react-native-slack.git"
+  },
+  "keywords": [
+    "Slack",
+    "Webhook",
+    "react-native",
+    "TypeScript"
+  ],
+  "author": "Ann Eliese Grey",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/aegrey/react-native-slack/issues"
+  },
+  "homepage": "https://github.com/aegrey/react-native-slack#readme",
+  "devDependencies": {
+    "jest": "^29.3.1",
+    "typescript": "^4.9.4"
+  }
+}
